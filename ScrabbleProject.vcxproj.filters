@@ -15,22 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Proj1.2\ScrabbleProject\Scrabble\scrabble.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Proj1.2\ScrabbleProject\Scrabble\conio2.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Proj1.2\ScrabbleProject\Scrabble\main.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
+    <ClInclude Include="conio2.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="scrabble.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Proj1.2\ScrabbleProject\Scrabble\scrabble.h">
+    <ClCompile Include="conio2.cpp">
       <Filter>Pliki źródłowe</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Proj1.2\ScrabbleProject\Scrabble\conio2.h">
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="scrabble.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

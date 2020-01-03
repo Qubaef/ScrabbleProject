@@ -115,13 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Proj1.2\ScrabbleProject\Scrabble\conio2.cpp" />
-    <ClCompile Include="..\..\Proj1.2\ScrabbleProject\Scrabble\main.cpp" />
-    <ClCompile Include="..\..\Proj1.2\ScrabbleProject\Scrabble\scrabble.cpp" />
+    <ClInclude Include="conio2.h" />
+    <ClInclude Include="scrabble.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Proj1.2\ScrabbleProject\Scrabble\conio2.h" />
-    <ClInclude Include="..\..\Proj1.2\ScrabbleProject\Scrabble\scrabble.h" />
+    <ClCompile Include="conio2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="scrabble.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
